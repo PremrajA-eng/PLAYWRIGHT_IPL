@@ -3,7 +3,6 @@ import { text } from 'node:stream/consumers';
 
 test.only('Login ti ecommerse site', async ({browser,})=>
     {
-
 const productName='ADIDAS ORIGINAL';
 const context=await browser.newContext();
 const page= await context.newPage();
